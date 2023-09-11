@@ -1,4 +1,4 @@
-- hosts: tomcatservers
+- hosts: _tomcatservers
   become: true
   tasks:
     - name: Install Java
